@@ -32,7 +32,7 @@
   </view>
   <view class="bottom-text">
       <text>请如实填写，将根据您的信息推荐合适您的瘦身方法</text>
-      <button class='color1' bindtap='onBtnChange'>好了</button>
+      <button class="{{loading? 'color1': 'color'}}" bindtap='onBtnChange'>好了</button>
   </view>
   <view class="bottom-text">
       <button class="color2">跳过</button>
