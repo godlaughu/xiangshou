@@ -1,0 +1,40 @@
+
+<view class="top">
+    <text>填写资料</text>
+</view>
+<view class="body">
+  <view class="touxiang">
+    <view class="T-left" catchtap='nv'>
+          <view class="{{bul ? 'iconfont icon-nvsheng' : 'iconfont icon-nvsheng icon-nvsheng1'}}"></view>
+          <text class="{{!bul?'T-right':'T-left'}}">我是女生</text>
+      </view>
+      <view class="T-right" catchtap='nan'>
+          <view class="{{!bul?'iconfont  icon-nansheng icon-nansheng1':'iconfont icon-nansheng'}}" ></view>
+          <text class="{{!bul?'T-left':'T-right '}}">我是男生</text>
+      </view>
+    
+  </view>
+  <view class="birthday">
+        <text>生日</text>
+        <text class='birthday-data'>--年--月--日</text>
+  </view>
+  <view class="birthday">
+      <text>身高</text>
+      <text class='height'>--cm</text>
+  </view>
+  <view class="birthday">
+      <text>当前体重</text>
+      <text class='now-weight'>--kg</text>
+  </view>
+  <view class="birthday">
+      <text>目标体重</text>
+      <text class='total-weight'>--kg</text>
+  </view>
+  <view class="bottom-text">
+      <text>请如实填写，将根据您的信息推荐合适您的瘦身方法</text>
+      <button class='color1' bindtap='onBtnChange'>好了</button>
+  </view>
+  <view class="bottom-text">
+      <button class="color2">跳过</button>
+  </view>
+</view>
