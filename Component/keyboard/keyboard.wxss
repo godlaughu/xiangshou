@@ -1,0 +1,129 @@
+/* Component/keyboard/keyboard.wxss */
+.sheet-content { 
+  background: rgba(0, 0, 0, 0.5);
+}
+/* 键盘 */
+.num-input{
+   background: rgba(0, 0, 0, 0.5);
+  height: 350rpx;
+
+}
+.i-title{
+  background: rgba(0, 0, 0, 0.5);
+  height: 36rpx;
+  text-align: center;
+  line-height: 36rpx;
+  color: white;
+  font-family: PingFangSC-Regular;
+  font-size:36rpx; 
+}
+.onput{
+  margin-top: 56rpx;
+  background: rgba(0, 0, 0, 0.5);
+  height: 87rpx;
+  text-align: center;
+  line-height: 72rpx;
+  color: white;
+  font-family: PingFangSC-Regular;
+  font-size:72rpx; 
+}
+.keyboard {
+    width: 750rpx;
+    height: 669rpx;
+    display: flex; 
+    flex-flow:row wrap; 
+}
+.keyboard .ready {
+   justify-content: space-between;
+    background-color: rgb(236, 236, 236);
+    flex-flow:row ; 
+    width: 750rpx;
+    height: 90rpx;
+   display: flex;
+} 
+.keyboard .ready .cancel{
+  color: rgb(178, 178, 178);
+  margin-left: 15rpx;
+  line-height: 90rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 36rpx;
+}
+.keyboard .ready .confirm{
+  color: rgb(255, 84, 150);
+  margin-right: 15rpx;
+  line-height: 90rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 36rpx;
+}
+.keyboard .number {
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    width: 750rpx;
+    height: 579rpx;
+    flex-wrap: wrap;
+}
+ 
+.keyboard .number .num {
+    width: 230rpx;
+    height: 126rpx;
+    font-size: 60rpx;
+    text-align: center;
+    font-weight: bold;
+    margin-left:15rpx;
+    margin-top: 15rpx; 
+    background: white;
+    border-radius : 20rpx;
+   font-family: PingFangSC-Medium;
+}
+ .keyboard .number view .num1{
+   font-family: PingFangSC-Medium;
+   font-size: 60rpx;
+   height: 60rpx;
+   margin-top: 10rpx ;
+ }
+.keyboard .number view .num2{
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  height: 26rpx;
+  margin-top: 10rpx ;
+ }
+ .keyboard .number .wu{
+  background-color: rgb(204, 204, 204);
+  line-height: 126rpx;
+ }
+ .keyboard .number .zero{
+  line-height: 126rpx
+ }
+ .keyboard .number .delete{
+   line-height: 126rpx
+ }
+.keyboard .number .active {
+  background-color: rgb(236, 236, 236);
+}
+ 
+
+
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1547027586573'); /* IE9 */
+  src: url('iconfont.eot?t=1547027586573#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMYAAsAAAAABsAAAALKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqBQIE2ATYCJAMICwYABCAFhG0HOxvnBREVjF+yr7Apw6+g4G6Nnjf/mWC5XFgeA+RGCxSQQAEAAAAA8fC19+e5b/cVSi+KwZWuSx3PIFEYRdJthEYYVDA2KrIb8f93v98Q82H2LP5D0666f/fEt4t71pKgUgKRSLJGJDM4t7sBSSxECJEmZqWeShZL6pER2hcadMMms7V+8MH616GtzukuDqdNoEDmn3c5zbmpCzAOpADHWhRQoAUUADeM3UTgEA4TaDdtU5yORDJIIwOjAvFo95tIk3PIshVuhKpmYRZfZWiKd0WEL/z78Z9sBUOhTEDWBQ93kMOfOhiVzNaRBYrAnE8HaxkJm8jETW3gjCRh4ZL2QDbPvtKDX3WtqUrs9c8TFZDaCSZVxj0xMetWKQuQ6cwOTkddRBrKce4KN68Bo9GTLbt75fnw5iYX3ysV1uFceZqNeri7daST5L0uA3sqPT0+D41EanJzNG3JxOgo9H6n6tkUXFXrf15GV82gWOHfcbMs/nz2Xf9a6JMEbcA0rdbn1u/GBmz51vLzaKwIcg5bHRLgSi/FP/I3pqr9S71o4K/pyODH/PcJl2X9TDSnMwa/jdmzIYdsoCyyz6yNFHak2ylr144W3dLv51jJ0D1GQmPoTk21qRSSxiIyYzeh1GEbKg3xAeTaMLo8zwAhTeQcgvQ4VyD0eoZCtzdIer0hM/YDSsN+odIbadDuLso27LAcdu6ggFWEJF3bpjYLA47UmCvSx8Bc91ZFls3xUyCk7aa6ohXDoxCAmGOK3DANRE65CH06ohwHnhfSSIQOMFQsxCihqrzuRQoLfZLrhABWIZBErdlG2ZhQgNPWKLf0+THAtM6zSrTUDainAEGyu6d0Cq0HclQQ9Kq7l2ekDSYDQhzFCSEfNaL0Ax5PiIrq+zkAgxTWCF8kQYXNeF+Bsr7I/7ptEJILSFMDZqeRvvtV5sqI9IL+cB09OwBCAAAA') format('woff2'),
+  url('iconfont.woff?t=1547027586573') format('woff'),
+  url('iconfont.ttf?t=1547027586573') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1547027586573#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-backspace-outline:before {
+  content: "\e61b";
+} 
+.icon-backspace-outline{
+  font-size: 44rpx;
+}

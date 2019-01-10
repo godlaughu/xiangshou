@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+<text>11111111111</text>
+  <keyboard>
+  </keyboard>
+</view>
