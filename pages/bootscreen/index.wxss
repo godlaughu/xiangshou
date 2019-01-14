@@ -132,3 +132,9 @@ color: rgb(230,230,230);
 .icon-nvsheng:before {
   content: "\e600";
 }
+#comp{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+}
