@@ -1,13 +1,182 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<!-- index.wxml -->
+<view class="home">
+  <!-- start head -->
+  <view class="head">
+    <!-- <view class="title">享瘦就瘦</view> -->
+    <view class="search">
+      <view>
+        <view class="iconfont icon-sousuo" />
+      </view>
+      <view>
+        <input class="inp" type='text' placeholder="食材查询" />
+      </view>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <!-- end head -->
+  <!-- start banner -->
+  <view class="banner">
+    <swiper style="height: 250rpx; width: 100%" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}" wx:key="index">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
   </view>
+  <!-- end banner -->
+  <!-- start home-food-search -->
+  <view class="home-food-search">
+    <view>
+      <view class="food-img food">
+        <view class="iconfont icon-icons-bread" />
+      </view>
+      <view class="txt">查询食材</view>
+    </view>
+    <view>
+      <view class="food-img recipe">
+        <view class="iconfont icon-shipu" />
+      </view>
+      <view class="txt">瘦身食谱</view>
+    </view>
+    <view>
+      <view class="food-img people">
+        <view class="iconfont icon-ren" />
+      </view>
+      <view class="txt">运动指南</view>
+    </view>
+    <view>
+      <view class="food-img record">
+        <view class="iconfont icon-shijian" />
+      </view>
+      <view class="txt">我的记录</view>
+    </view>
+  </view>
+  <!-- home-food-search -->
+  <!-- start slimming -->
+  <view class="slimming">
+    <view class="slimming-box">
+      <view class="left"  bind:tap="onHandleJumpTo">
+        <view class="left-box">
+          <view class="course-title">瘦身课程</view>
+          <view class="course-txt">一边瘦身，一边健身</view>
+          <view class="course-img">
+            <image src="./images/304.png" />
+          </view>
+        </view>
+      </view>
+      <view class="right">
+        <view class="community">
+          <view class="community-box">
+            <view class="community-title">瘦身社区</view>
+            <view class="community-txt">分享经验，共同减重</view>
+            <view class="community-img">
+              <image src="./images/kiwi-fruit.png" />
+            </view>
+          </view>
+        </view>
+        <view class="plan">
+          <view class="plan-box">
+            <view class="plan-title">瘦身计划</view>
+            <view class="plan-txt">阶段规划，帮你坚持</view>
+            <view class="plan-img">
+              <image src="./images/basketball.png" />
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- end slimming -->
+  <!-- start comment -->
+  <view class="comment">
+    <view class="conment-container-1">
+      <view class="comment-box">
+        <view class="comment-title">你们给我挺住，都别吃</view>
+        <view class="comment-bg">
+          <image src="./images/305.jpg" />
+          <view class="bg-cover">
+            <view class="comment-txt">
+              <view class="comment-txt-title">要么瘦要么死</view>
+              <view class="comment-txt-title-txt">坚持坚持</view>
+            </view>
+          </view>
+        </view>
+        <view class="comment-bot">
+          <view class="comment-bot-comments">
+            <text>1</text>
+            评论
+          </view>
+          <view class="comment-bot-month">
+            <text>1</text>
+            月前
+          </view>
+        </view>
+      </view>
+      <view class="comment-box">
+        <view class="comment-title">你们给我挺住，都别吃</view>
+        <view class="comment-bg">
+          <image src="./images/58pic_5343091c8c74c.jpg" />
+          <view class="bg-cover">
+            <view class="comment-txt">
+              <view class="comment-txt-title">恭喜你</view>
+              <view class="comment-txt-title-txt">成为白富美大长腿</view>
+            </view>
+          </view>
+        </view>
+        <view class="comment-bot">
+          <view class="comment-bot-comments">
+            <text>1</text>
+            评论
+          </view>
+          <view class="comment-bot-month">
+            <text>1</text>
+            月前
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="comment-container-2">
+      <view class="comment-box2">
+        <view class="comment-left">
+          <view class="comment-title-2">越吃越胖的蔬菜，越吃越瘦的主食，选哪个？</view>
+          <view class="comment-bot">
+            <view class="comment-bot-comments">
+              <text>1</text>
+              评论
+            </view>
+            <view class="comment-bot-month">
+              <text>1</text>
+              月前
+            </view>
+          </view>
+        </view>
+        <view class="comment-right">
+          <image src="./images/53bca084cee5a.jpg" />
+        </view>
+      </view>
+      <view class="comment-box2">
+        <view class="comment-left">
+          <view class="comment-title-2">入冬以来你胖了多少斤？</view>
+          <view class="comment-bot">
+            <view class="comment-bot-comments">
+              <text>1</text>
+              评论
+            </view>
+            <view class="comment-bot-month">
+              <text>1</text>
+              月前
+            </view>
+          </view>
+        </view>
+        <view class="comment-right">
+          <image src="./images/5c0f1fff7c22b.jpg" />
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    没有更多了
+    <view class="online-consulting">在线咨询</view>
+  </view>
+  <!-- end comment -->
 </view>

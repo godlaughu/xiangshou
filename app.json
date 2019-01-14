@@ -2,12 +2,16 @@
   "pages": [
     "pages/bootscreen/index",
     "pages/index/index",
-    "pages/clockon/index"
+    "pages/tool/index",
+    "pages/shoppingmall/index",
+    "pages/cart/index",
+    "pages/my/index",
+    "pages/course/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "享瘦就瘦",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -17,8 +21,20 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/clockon/index",
-        "text": "其他"
+        "pagePath": "pages/tool/index",
+        "text": "工具"
+      },
+      {
+        "pagePath": "pages/shoppingmall/index",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的"
       }
     ]
   }

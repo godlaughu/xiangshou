@@ -1,0 +1,90 @@
+/* Pages/course/course.wxss */
+#course{
+  border-top: 2px solid #ccc;
+  padding: 0 20rpx;
+}
+.allCourse{
+  font-size: 34rpx;
+  margin: 50rpx 0;
+}
+.aim,.type,.difficulty{
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  margin-bottom: 30rpx;
+  width: 100%;
+}
+.aimLeft,.typeLeft,.difficultyLeft{
+  width: 15%;
+}
+.aimRight,.typeRight,.difficultyRight{
+  width: 85%;
+}
+.courseItem{
+  display: inline-block;
+  padding: 8rpx;
+  color: rgb(178, 178, 178);
+  border: 1px solid rgb(178,178,178);
+  border-radius: 23px;
+  margin-right: 14rpx;
+}
+
+#hotSport{
+  padding: 0 20rpx;
+  border-top: 2px solid #ccc;
+}
+.hotSport{
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sportLeft{
+  font-size: 34rpx;
+}
+.sportRight{
+  font-size: 30rpx;
+  color: rgb(136, 136, 136);
+}
+.sportImage{
+  width: 100%;
+  height: 330rpx;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.sportImage image{
+  width: 100%;
+  height: 100%;
+  border-radius: 8rpx;
+}
+.sport{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  color: white;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.sportTitle{
+  font-size: 48rpx;
+}
+.sportJoin{
+  margin: 20rpx 0;
+  font-size: 24rpx;
+}
+.sportBoutique{
+  font-size: 22rpx;
+  width: 70rpx;
+  height: 50rpx;
+  border-radius: 5px;
+  line-height: 50rpx;
+  text-align: center;
+  color: black;
+  background-color: rgb(255, 220, 149);
+}
+.sportTime{
+  position: absolute;
+  bottom: 20rpx;
+  font-size: 24rpx;
+}
