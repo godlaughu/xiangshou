@@ -1,0 +1,41 @@
+.compDate{
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7)
+}
+.compBtn{
+  display: flex;
+  padding: 0 20rpx;
+  justify-content: space-between;
+  align-items: center;
+  height: 90rpx;
+  border-bottom: 1px solid gray;
+}
+.sureDate{
+  margin: 0;
+  height: 60rpx;
+  width: 128rpx;
+  background: rgb(255,84,150);
+  color: white;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  line-height: 60rpx;
+}
+.compPicker{
+  position: absolute;
+  background: white;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  z-index: 1;
+}
+.date{
+  overflow: hidden;
+}
+.space{
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  height: 50vh;
+  /* z-index: -1; */
+  top:0;
+}

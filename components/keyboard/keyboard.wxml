@@ -1,0 +1,63 @@
+<!--Component/keyboard/keyboard.wxml-->
+<action-sheet hidden="{{passwordInputHidden}}" bindchange="passwordInputHidden">
+    <view class='num-input'>
+        <view class='i-title'>
+          {{compBoo.text}}
+        </view>      
+        <view class='onput'>
+        <view class='underline'>{{inputWord}}</view>
+        <text class='unit'>{{unit}}</text>     
+        </view>    
+    </view>   
+    <view class='keyboard'>
+        <view class='ready'>
+          <view class='cancel' bindtap='inputHidden'>取消</view>
+          <view class='confirm' bindtap='inputGo'>确定</view>
+        </view>
+        <view class='number'>
+            <view data-key="1" hover-class='active' hover-stay-time='100' bindtap='inputWord' class='num'>
+            <view class='num1'>1</view>
+            </view>
+            <view data-key="2" hover-class='active' hover-stay-time='100' bindtap='inputWord' class='num'>
+             <view class='num1'>2</view>
+             <view class='num2'>A B C</view>
+            </view>
+            <view data-key="3" hover-class='active' hover-stay-time='100' bindtap='inputWord' class='num'>
+             <view class='num1'>3</view>
+             <view class='num2'>D E F</view>
+            </view>
+            <view data-key="4" hover-class='active' hover-stay-time='100' v class='num' bindtap='inputWord'>
+             <view class='num1'>4</view>
+             <view class='num2'>G H I</view>
+            </view>
+            <view data-key="5" hover-class='active' hover-stay-time='100' bindtap='inputWord' class='num'>
+            <view class='num1'>5</view>
+             <view class='num2'>J K L</view>
+             </view>
+            <view data-key="6" hover-class='active' hover-stay-time='100' bindtap='inputWord' class='num'>
+            <view class='num1'>6</view>
+             <view class='num2'>M N O</view>
+            </view>
+            <view data-key="7" hover-class='active' hover-stay-time='100' bindtap='inputWord'class='num'>
+            <view class='num1'>7</view>
+             <view class='num2'>P Q R S</view>
+            </view>
+            <view data-key="8" hover-class='active' hover-stay-time='100' bindtap='inputWord' class='num'>
+            <view class='num1'>8</view>
+             <view class='num2'>T U V</view>
+            </view>
+            <view data-key="9" hover-class='active' hover-stay-time='100' bindtap='inputWord' class='num'>
+            <view class='num1'>9</view>
+            <view class='num2'>W X Y Z</view>
+            </view>
+            <view class='num wu'>.</view>
+            <!-- <view data-key='.' bindtap='inputWord' class='num wu'>.</view> -->
+            <view data-key="0" hover-class='active' hover-stay-time='100' bindtap='inputWord' class='num zero'>0</view>
+            <view  hover-class='active' hover-stay-time='100' bindtap='clear' class='num delete'>
+            <view class='iconfont icon-backspace-outline'>
+            </view>
+            </view>
+        </view>
+    </view>
+</action-sheet>
+

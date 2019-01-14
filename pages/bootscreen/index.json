@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "keyboard": "/components/keyboard/keyboard",
+      "date": "/components/date/index"
+  }
+}

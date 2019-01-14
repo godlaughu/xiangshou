@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/bootscreen/index",
+    "pages/index/index",
+    "pages/clockon/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/clockon/index",
+        "text": "其他"
+      }
+    ]
+  }
+}
