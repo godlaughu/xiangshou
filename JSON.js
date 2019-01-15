@@ -37,42 +37,60 @@ let data = {
         "number": 208768931,
         "kind": "适中",
         "duration": "60分钟",
-        "type": 1
+        "type": 1,
+        "objective": 1,
+        "position": 2,
+        "difficulty": 2
       },
       {
         "curriculum": "30分钟瑜伽体验课",
         "number": 33357865,
         "kind": "轻松",
         "duration": "15分钟",
-        "type": 0
+        "type": 0,
+        "objective": 1,
+        "position": 1,
+        "difficulty": 3
       },
       {
         "curriculum": "办公室肩颈放松",
         "number": 8986086,
         "kind": "轻松",
         "duration": "10分钟",
-        "type": 1
+        "type": 1,
+        "objective": 2,
+        "position": 5,
+        "difficulty": 2
       },
       {
         "curriculum": "塑形操·臀腿训练",
         "number": 322258433,
         "kind": "适中",
         "duration": "40分钟",
-        "type": 0
+        "type": 0,
+        "objective": 1,
+        "position": 4,
+        "difficulty": 2
       },
       {
         "curriculum": "30分钟瑜伽体验课",
         "number": 33357865,
         "kind": "轻松",
         "duration": "15分钟",
-        "type": 0
+        "type": 0,
+        "objective": 2,
+        "position": 2,
+        "difficulty": 1
       },
       {
         "curriculum": "办公室肩颈放松",
         "number": 8986086,
         "kind": "轻松",
         "duration": "10分钟",
-        "type": 1
+        "type": 1,
+        "objective": 1,
+        "position": 5,
+        "difficulty": 3
       }
     ]
 }

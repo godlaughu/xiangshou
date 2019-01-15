@@ -28,6 +28,14 @@
   border-radius: 23px;
   margin-right: 14rpx;
 }
+.active{
+  color: rgb(255, 84, 150);
+  border: 1px solid rgb(255, 84, 150);
+  display: inline-block;
+  padding: 8rpx;
+  border-radius: 23px;
+  margin-right: 14rpx;
+}
 
 #hotSport{
   padding: 0 20rpx;
@@ -87,4 +95,7 @@
   position: absolute;
   bottom: 20rpx;
   font-size: 24rpx;
+}
+.choosing{
+  /* color:  */
 }

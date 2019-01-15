@@ -3,28 +3,30 @@
   <view class="aim">
     <view class="aimLeft">目的:</view>
     <view class="aimRight">
-      <view class="courseItem">减脂</view>
-      <view class="courseItem">塑性</view>
-      <view class="courseItem">增肌</view>
+      <view class="courseItem {{objective == 0 ? 'active': ''}}"  bindtap='selectob' data-ob="0">全部</view>
+      <view class="courseItem {{objective == 1 ? 'active': ''}}" bindtap='selectob' data-ob="1">减脂</view>
+      <view class="courseItem {{objective == 2 ? 'active': ''}}" bindtap='selectob' data-ob="2">塑性</view>
+      <view class="courseItem {{objective == 3 ? 'active': ''}}" bindtap='selectob' data-ob="3">增肌</view>
     </view>
   </view>
   <view class="type">
     <view class="typeLeft">类型:</view>
     <view class="typeRight">
-      <view class="courseItem">全部</view>
-      <view class="courseItem">腰腹</view>
-      <view class="courseItem">臀腿</view>
-      <view class="courseItem">上肢</view>
-      <view class="courseItem">瑜伽</view>
-      <view class="courseItem">团操</view>
+      <view class="courseItem {{position == 0 ? 'active': ''}}"  bindtap='selectpo' data-po="0">全部</view>
+      <view class="courseItem {{position == 1 ? 'active': ''}}"  bindtap='selectpo' data-po="1">腰腹</view>
+      <view class="courseItem {{position == 2 ? 'active': ''}}"  bindtap='selectpo' data-po="2">臀腿</view>
+      <view class="courseItem {{position == 3 ? 'active': ''}}"  bindtap='selectpo' data-po="3">上肢</view>
+      <view class="courseItem {{position == 4 ? 'active': ''}}"  bindtap='selectpo' data-po="4">瑜伽</view>
+      <view class="courseItem {{position == 5 ? 'active': ''}}"  bindtap='selectpo' data-po="5">团操</view>
     </view>
   </view>
   <view class="difficulty">
     <view class="difficultyLeft">难度:</view>
     <view class="difficultyRight">
-      <view class="courseItem">轻松</view>
-      <view class="courseItem">适中</view>
-      <view class="courseItem">高等</view>
+      <view class="courseItem {{difficulty == 0 ? 'active': ''}}"  bindtap='selectdi' data-di="0">全部</view>
+      <view class="courseItem {{difficulty == 1 ? 'active': ''}}" bindtap='selectdi' data-di="1">轻松</view>
+      <view class="courseItem {{difficulty == 2 ? 'active': ''}}"  bindtap='selectdi' data-di="2">适中</view>
+      <view class="courseItem {{difficulty == 3 ? 'active': ''}}"  bindtap='selectdi' data-di="3">高等</view>
     </view>
   </view>
 </view>
@@ -33,7 +35,6 @@
     <view class="sportLeft">热门运动</view>
     <view class="sportRight">
       <text>筛选</text>
-      <!-- <text>&#xe603;</text> -->
     </view>
   </view>
   <block wx:for="{{course}}" wx:key="index">
