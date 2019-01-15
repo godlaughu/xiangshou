@@ -38,7 +38,7 @@
   </view>
   <block wx:for="{{course}}" wx:key="index">
     <view class="sportImage">
-      <image src="images/course_01.png"></image>
+      <image src="images/course_01.jpg"></image>
       <view class="sport">
         <view class="sportTitle">{{item.curriculum}}</view>
         <view class="sportJoin">{{item.number}}人参加</view>

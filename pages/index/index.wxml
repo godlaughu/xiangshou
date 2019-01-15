@@ -60,7 +60,7 @@
           <view class="course-title">瘦身课程</view>
           <view class="course-txt">一边瘦身，一边健身</view>
           <view class="course-img">
-            <image src="./images/304.png" />
+            <image src="./images/304.jpg" />
           </view>
         </view>
       </view>
@@ -70,7 +70,7 @@
             <view class="community-title">瘦身社区</view>
             <view class="community-txt">分享经验，共同减重</view>
             <view class="community-img">
-              <image src="./images/kiwi-fruit.png" />
+              <image src="./images/kiwi-fruit.jpg" />
             </view>
           </view>
         </view>
@@ -79,7 +79,7 @@
             <view class="plan-title">瘦身计划</view>
             <view class="plan-txt">阶段规划，帮你坚持</view>
             <view class="plan-img">
-              <image src="./images/basketball.png" />
+              <image src="./images/basketball.jpg" />
             </view>
           </view>
         </view>

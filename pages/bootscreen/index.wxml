@@ -33,7 +33,7 @@
     <button class="{{loading? 'color1': 'color'}}" bindtap='onBtnChange'>好了</button>
   </view>
   <view class="bottom-text">
-    <button class="color2">跳过</button>
+    <button class="color2" bindtap='goIndex'>跳过</button>
   </view>
 </view>
 <view id='comp'>

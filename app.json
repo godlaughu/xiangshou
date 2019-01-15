@@ -2,11 +2,11 @@
   "pages": [
     "pages/bootscreen/index",
     "pages/index/index",
+    "pages/course/index",
     "pages/tool/index",
     "pages/shoppingmall/index",
     "pages/cart/index",
-    "pages/my/index",
-    "pages/course/index"
+    "pages/my/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,27 +15,37 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/tool/index",
-        "text": "工具"
-      },
-      {
-        "pagePath": "pages/shoppingmall/index",
-        "text": "商城"
-      },
-      {
-        "pagePath": "pages/cart/index",
-        "text": "购物车"
-      },
-      {
-        "pagePath": "pages/my/index",
-        "text": "我的"
-      }
-    ]
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home(1).png"
+    },
+    {
+      "pagePath": "pages/tool/index",
+      "text": "工具",
+      "iconPath": "images/tool.png",
+      "selectedIconPath": "images/tool(1).png"
+    },
+    {
+      "pagePath": "pages/shoppingmall/index",
+      "text": "商城",
+      "iconPath": "images/shoppingmall.png",
+      "selectedIconPath": "images/shoppingmall(1).png"
+    },
+    {
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "images/cart.jpg",
+      "selectedIconPath": "images/cart(1).jpg"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath": "images/my.png",
+      "selectedIconPath": "images/my(1).png"
+    }
+  ]
   }
 }
