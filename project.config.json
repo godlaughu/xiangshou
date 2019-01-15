@@ -12,9 +12,9 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.4.3",
-	"appid": "wx007fc851bad165fd",
-	"projectname": "%E4%BA%AB%E7%98%A6",
+	"libVersion": "2.5.0",
+	"appid": "wxbaa12aa38c7c01b9",
+	"projectname": "xiangshou",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -28,13 +28,23 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "1111",
+					"pathName": "pages/course/index"
+				}
+			]
 		}
 	}
 }

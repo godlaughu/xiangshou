@@ -1,0 +1,50 @@
+<view id="course">
+  <view class="allCourse">全部课程</view>
+  <view class="aim">
+    <view class="aimLeft">目的:</view>
+    <view class="aimRight">
+      <view class="courseItem" bindtap='selectob' data-ob="0">减脂</view>
+      <view class="courseItem" bindtap='selectob' data-ob="1">塑性</view>
+      <view class="courseItem" bindtap='selectob' data-ob="2">增肌</view>
+    </view>
+  </view>
+  <view class="type">
+    <view class="typeLeft">类型:</view>
+    <view class="typeRight">
+      <view class="courseItem"  bindtap='selectpo' data-po="0">全部</view>
+      <view class="courseItem"  bindtap='selectpo' data-po="1">腰腹</view>
+      <view class="courseItem"  bindtap='selectpo' data-po="2">臀腿</view>
+      <view class="courseItem"  bindtap='selectpo' data-po="3">上肢</view>
+      <view class="courseItem"  bindtap='selectpo' data-po="4">瑜伽</view>
+      <view class="courseItem"  bindtap='selectpo' data-po="5">团操</view>
+    </view>
+  </view>
+  <view class="difficulty">
+    <view class="difficultyLeft">难度:</view>
+    <view class="difficultyRight">
+      <view class="courseItem" bindtap='selectdi' data-di="0">轻松</view>
+      <view class="courseItem"  bindtap='selectdi' data-di="1">适中</view>
+      <view class="courseItem"  bindtap='selectdi' data-di="2">高等</view>
+    </view>
+  </view>
+</view>
+<view id="hotSport">
+  <view class="hotSport">
+    <view class="sportLeft">热门运动</view>
+    <view class="sportRight">
+      <text>筛选</text>
+      <!-- <text>&#xe603;</text> -->
+    </view>
+  </view>
+  <block wx:for="{{course}}" wx:key="index">
+    <view class="sportImage">
+      <image src="images/course_01.jpg"></image>
+      <view class="sport">
+        <view class="sportTitle">{{item.curriculum}}</view>
+        <view class="sportJoin">{{item.number}}人参加</view>
+        <view class="sportBoutique" wx:if="{{item.type}}">精品</view>
+        <view class="sportTime">{{item.kind}} {{item.duration}}</view>
+      </view>
+    </view>
+  </block>
+</view>
