@@ -1,9 +1,10 @@
 {
   "pages": [
+     "pages/shoushen/shoushenying",
     "pages/bootscreen/index",
     "pages/index/index",
+
     "pages/logs/logs"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",

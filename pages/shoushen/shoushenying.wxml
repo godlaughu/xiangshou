@@ -1,0 +1,49 @@
+<!--pages/shoushen/shoushenying.wxml-->
+<view class="header">
+  <text>享瘦营</text>
+  <image src="../../image/ss.png"></image>
+</view>
+<view class="body">
+  <view class="body-content">
+      <view class="touxiang">
+        <image src="../../image/pic.jpg"></image>
+        <view class="touxiang-text">
+          <view> Alice</view>
+          <view>一分钟前</view>
+        </view>
+      </view>
+      <view class="datu">
+        <image src="../../image/mh.jpg"></image>
+        <view class="benjing">
+        <view>7天驼背改善训练</view>
+        <view>热量消耗</view>
+        <view>105</view>
+        <view>千卡</view>
+        </view>
+      </view>
+      <view class="weizi">
+        <image src="../../image/dj1.png"></image>
+        <text>坚持完成塑形操臀腿训练<text>第8天</text></text> 
+      </view>
+      <view class="xian"></view>
+     <input  placeholder-placeholder-class='shuru' type="text" placeholder='我要评论...'></input>
+    <view class="dianzan">
+      <view>
+        <image src="../../image/dz.png"></image>
+        <text>点赞</text>
+      </view>
+      <view>
+        <image src="../../image/pl.png"></image>
+        <text>评论</text>
+        <text>0</text>
+      </view>
+     <view>
+        <image src="../../image/fx.png"></image>
+        <text>分享</text>
+      </view>
+    </view>
+    <view class="jz">
+      <image src="../../image/jz.png"></image>
+    </view>
+  </view>
+</view>
