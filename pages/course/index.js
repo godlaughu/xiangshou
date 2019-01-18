@@ -42,15 +42,10 @@ Page({
     let a = this.data.save;
     
     for (let i = 0; i < a.length; i++) {
-      console.log(a[i])
-      console.log(this.data.objective)
       if (a[i].objective == this.data.objective || this.data.objective == 10) {
-        console.log(1)
         if (a[i].position == this.data.position || this.data.position == 0) {
-          console.log(2)
           if (a[i].difficulty == this.data.difficulty || this.data.difficulty == 10 ) {
             b.push(a[i])
-            console.log(3)
           }
         }
       }

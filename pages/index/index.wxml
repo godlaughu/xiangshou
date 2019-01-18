@@ -74,9 +74,9 @@
             </view>
           </view>
         </view>
-        <view class="plan">
+        <view class="plan" bind:tap="onHandleJumpToPlan">
           <view class="plan-box">
-            <view class="plan-title">瘦身计划</view>
+            <view class="plan-title" >瘦身计划</view>
             <view class="plan-txt">阶段规划，帮你坚持</view>
             <view class="plan-img">
               <image src="./images/basketball.jpg" />

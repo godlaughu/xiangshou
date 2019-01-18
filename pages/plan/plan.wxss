@@ -1,0 +1,195 @@
+/* pages/plan/plan.wxss */
+.p-all{
+    margin: 0 auto;
+    width: 710rpx;
+}
+.p-line{
+    border-top:2px solid rgb(225, 225, 225) 
+}
+.p-top{
+    font-size: 44rpx;
+    margin-top:40rpx;
+    margin-bottom: 30rpx; 
+}
+.p-introduce1{
+    font-size: 30rpx;
+    margin-bottom: 30rpx;
+}
+.p-record{
+    display: flex;
+    justify-content: space-around;
+} 
+.p-record image{
+    width: 170rpx;
+    height: 259rpx;
+}
+.p-cycle{
+    width: 170rpx;
+    height: 259rpx;
+    position: relative;
+}
+.p-intake{
+    width: 170rpx;
+    height: 259rpx;  
+    position: relative; 
+}
+.p-consume{
+    width: 170rpx;
+    height: 259rpx;
+    position: relative;
+}
+.p-estimate{
+    width: 170rpx;
+    height: 259rpx;   
+    position: relative; 
+}
+.p-text1{
+    text-align: center;
+    left: 0;
+    position: absolute;
+    top:40rpx;
+    width: 170rpx;
+    color: white;
+    font-size: 26rpx;
+}
+.p-text2{
+    text-align: center;
+    left: 0;
+    position: absolute;
+    top:93rpx;
+    width: 170rpx;
+    color: white;
+    font-size: 48rpx;
+}
+.p-text3{
+    text-align: center;
+    left: 0;
+    position: absolute;
+    top:188rpx;
+    width: 170rpx;
+    color: white;
+    font-size: 26rpx;
+}
+.p-introduce2{
+    margin-top: 40rpx;
+    margin-bottom: 40rpx;
+    font-size: 22rpx;
+    height: 76rpx;
+    color: rgb(53, 53, 53);
+    background : rgb(244, 244, 244);
+    line-height: 38rpx;
+    border-radius: 5px;
+}
+.p-line2{
+    width: 750rpx;
+    height: 20rpx;
+    background: rgb(244, 244, 244);
+    margin-left:-20rpx;
+}
+.p-plan{
+    margin-top:40rpx;
+    margin-bottom: 20rpx; 
+}
+.p-plan-title{
+    font-size: 40rpx;
+}
+.p-plan-content{
+    height: 288rpx;
+    margin-top:24rpx; 
+}
+.p-plan-head{
+    display: flex;
+    margin-bottom:34rpx; 
+    height: 32rpx;
+}
+.p-plan-head text{
+    font-size: 32rpx
+}
+.p-plan-good{
+    display: none;
+    margin-top: 10rpx;
+    margin-right: 25rpx;
+    width: 20rpx;
+    height: 20rpx;
+}
+.p-plan-bad{
+    margin-top: 10rpx;
+    margin-right: 25rpx;
+    width: 20rpx;
+    height: 20rpx;
+    background: rgb(191, 191, 191);
+    border-radius: 50%;
+}
+.p-plan-ss{
+    margin-left: 10rpx;
+    border-left: 1rpx solid rgb(255, 84, 150) ;
+    height: 180rpx;
+}
+.p-plan-ss>view{
+    margin-left: 25rpx;
+}
+.p-plan-img2{
+    width: 20rpx;
+    height: 20rpx;
+}
+.p-plan-text{
+    margin-left: 25rpx;
+    font-size: 30rpx;
+}
+.p-diet{
+    margin-bottom: 132rpx;
+}
+.p-diet-title{
+    font-size: 40rpx;
+}
+.p-diet-top{
+    font-size: 30rpx;
+    text-align: center;
+}
+.p-diet-img{
+    width: 271rpx;
+    height: 271rpx; 
+    margin: 38rpx auto; 
+}
+.p-diet-img image{
+    width: 271rpx;
+    height: 271rpx;  
+}
+.p-diet-type{
+    margin-bottom: 86rpx;
+    height: 130rpx;
+    display: flex;
+    justify-content: space-around;
+}
+.p-diet-l1{
+    background: rgb(244, 244, 244);
+    width: 2rpx;
+    height: 110rpx;
+}
+.p-diet-b1{
+    font-size: 24rpx;
+    text-align: center;
+}
+.p-diet-b2{
+    margin-top: 23rpx;
+    font-size: 36rpx;
+    text-align: center;
+}
+.p-diet-b3{
+    margin-top: 23rpx;
+    font-size: 24rpx;
+    text-align: center;
+}
+.p-bottom{
+    font-size: 30rpx;
+}
+.p-button{
+    position: fixed; 
+    bottom:0;
+    line-height: 76rpx;
+    color: white;
+    text-align: center;
+    height: 76rpx;
+    background: rgb(255, 84, 150);
+    width:750rpx;
+}
