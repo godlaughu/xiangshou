@@ -1,0 +1,49 @@
+<!-- pages/planall/planall.wxml -->
+<view class="a-title">根据自身情况，选择合适的计划</view>
+<view class="a-content">
+    <view hover-class="a-series">
+        <view class="a-name">减脂系列</view>
+        <view class="a-plan color1">
+            <view class="a-text1">全身发力燃脂计划</view>
+            <view class="a-text2">周期：31天</view>
+        </view>
+        <view class="a-plan color2">
+            <view class="a-text1">快速燃脂减肥计划</view>
+            <view class="a-text2">周期：42天</view>
+        </view>
+        <view class="a-plan color3">
+            <view class="a-text1">易瘦体质形成计划</view>
+            <view class="a-text2">周期：31天</view>
+        </view>
+        <view class="a-plan color4">
+            <view class="a-text1">易胖体质改善计划</view>
+            <view class="a-text2">周期：22天</view>
+        </view>
+    </view>
+    <view hover-class="a-series">
+        <view class="a-name">塑形系列</view>
+        <view class="a-plan color5">
+            <view class="a-text1">0基础曲线塑形计划</view>
+            <view class="a-text2">周期：34天</view>
+        </view>
+        <view class="a-plan color6">
+            <view class="a-text1">打造美臀计划</view>
+            <view class="a-text2">周期：21天</view>
+        </view>
+        <view class="a-plan color7">
+            <view class="a-text1">极速打造马甲线计划</view>
+            <view class="a-text2">周期：32天</view>
+        </view>
+    </view>
+    <view hover-class="a-series">
+        <view class="a-name">增肌系列</view>
+        <view class="a-plan color8">
+            <view class="a-text1">腹肌训练入门</view>
+            <view class="a-text2">周期：45天</view>
+        </view>
+        <view class="a-plan color9">
+            <view class="a-text1">挑战腹肌撕裂者强化</view>
+            <view class="a-text2">周期：28天</view>
+        </view>
+    </view>
+</view>
