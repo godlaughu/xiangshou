@@ -1,0 +1,88 @@
+<!-- pages/plan/plan.wxml -->
+<view class="p-all">
+    <view class="p-line"></view>
+    <view class="p-top">全身发力燃脂计划</view>
+    <view class="p-introduce1">
+        通过力量训练可以保护关节避免受伤，提高身体素质，减少劳累感，在运动中增加肌肉量，提升基础代谢，燃烧更多脂肪的同时保持肌肉的总量延迟衰老。
+    </view>
+    <view class="p-record">
+        <view class="p-cycle">
+            <image src="/images/plan_10.png" alt=""></image>
+            <view class="p-text1">计划周期</view>
+            <view class="p-text2">36</view>
+            <view class="p-text3">天</view>
+        </view>
+        <view class="p-intake">
+            <image src="/images/plan_12.png" alt=""></image>
+            <view class="p-text1">饮食摄入</view>
+            <view class="p-text2">1200</view>
+            <view class="p-text3">千卡/天</view>
+        </view>
+        <view class="p-consume">
+            <image src="/images/plan_14.png" alt=""></image>
+            <view class="p-text1">运动消耗</view>
+            <view class="p-text2">318</view>
+            <view class="p-text3">千卡/天</view>
+        </view>
+        <view class="p-estimate">
+            <image src="/images/plan_16.png" alt=""></image>
+            <view class="p-text1">预计体重</view>
+            <view class="p-text2">4.4</view>
+            <view class="p-text3">kg</view>
+        </view>
+    </view>
+    <view class="p-introduce2">循序渐进才是健康瘦身，完成本计划后，您可以继续选择下一计划来达到目标体重。</view>
+    <view class="p-line2"></view>
+    <view class="p-plan">
+        <view class="p-plan-title">运动计划</view>
+        <view class="p-plan-content">
+            <view class="p-plan-head">
+                <image class="p-plan-good" src="/images/dj1.png"></image>
+                <view class="p-plan-bad"></view>
+                <text>燃脂适应阶段</text>
+            </view>
+            <view class="p-plan-ss">
+                <view class="p-plan-cycle">
+                    <image class="p-plan-img2" src="/images/plan_26.png" />
+                    <text class="p-plan-text">运动周期： 第1-5天</text>
+                </view>
+                <view class="p-plan-record">
+                    <image class="p-plan-img2" src="/images/plan_29.png" />
+                    <text class="p-plan-text">阶段目标： 快速适应计划</text>
+                </view>
+                <view class="p-plan-time">
+                    <image class="p-plan-img2" src="/images/plan_31.png" />
+                    <text class="p-plan-text">每日训练时长： 30分钟</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="p-diet">
+        <view class="p-diet-title">饮食方案</view>
+        <view class="p-diet-top">建议每日摄入1200千卡</view>
+        <view class="p-diet-img">
+            <image src="/images/plan_34.png" />
+        </view>
+        <view class="p-diet-type">
+            <view class="p-diet-type1">
+                <view class="p-diet-b1">蛋白质</view>
+                <view class="p-diet-b2">75</view>
+                <view class="p-diet-b3">克</view>
+            </view>
+            <view class="p-diet-l1"></view>
+            <view class="p-diet-type2">
+                <view class="p-diet-b1">碳水化合物</view>
+                <view class="p-diet-b2">135</view>
+                <view class="p-diet-b3">克</view>
+            </view>
+            <view class="p-diet-l1"></view>
+            <view class="p-diet-type3">
+                <view class="p-diet-b1">脂肪</view>
+                <view class="p-diet-b2">40</view>
+                <view class="p-diet-b3">克</view>
+            </view>
+        </view>
+        <view class="p-bottom">这套计划根据运动消耗以及身高体重，定制专属的能量级饮食方案。精准的热量分级，丰富的膳食纤维，让减重更有效哦。</view>
+    </view>
+</view>
+<view class="p-button">更换计划</view>
