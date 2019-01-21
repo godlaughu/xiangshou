@@ -1,1 +1,67 @@
 /* pages/planall/planall.wxss */
+.a-title{
+    text-align: center;
+    margin-top: 20rpx;
+    font-size: 30rpx;
+    color: rgb(136, 136, 136);
+    margin-bottom: 40rpx;
+}
+.a-content{
+    width: 710rpx;
+    margin: 80rpx 20rpx 0 20rpx;
+}
+.a-series{
+   
+}
+.a-name{
+    line-height: 120rpx;
+    height: 100rpx; 
+    font-size: 36rpx;
+    color: rgb(53, 53, 53)
+}
+.a-plan{
+    margin-top:20rpx; 
+    position: relative;
+    height: 250rpx;
+}
+.a-text1{
+    font-size: 42rpx;
+    color: white;
+    position: absolute;
+    left:20rpx;
+    top :  20rpx;
+}
+.a-text2{
+    position: absolute;
+    left:20rpx;
+    top:  180rpx;
+    font-size: 30rpx;
+    color: white;
+}
+.color1{
+    background: rgb(244,193 ,191 );
+}
+.color2{
+    background: rgb(192,233 ,241);
+}
+.color3{
+    background: rgb(239,139 ,224 );
+}
+.color4{
+    background: rgb( 250, 201,175);
+}
+.color5{
+    background: rgb( 184,213,252);
+}
+.color6{
+    background: rgb(160, 224,222 );
+}
+.color7{
+    background: rgb(239,194 ,223 );
+}
+.color8{
+    background: rgb(244,195 ,191 );
+}
+.color9{
+    background: rgb(250,202 ,180 );
+}

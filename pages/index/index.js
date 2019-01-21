@@ -50,8 +50,7 @@ Page({
   },
   planTo() {
     wx.navigateTo({
-      // url: '../planall/planall',
-      url: '../plan/plan',
+      url: '../planall/planall'
     })
   }
 })
