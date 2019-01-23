@@ -3,7 +3,7 @@
 <view class="a-content">
     <view hover-class="a-series">
         <view class="a-name">减脂系列</view>
-        <view class="a-plan color1">
+        <view class="a-plan color1" bindtap='planTo'>
             <view class="a-text1">全身发力燃脂计划</view>
             <view class="a-text2">周期：31天</view>
         </view>

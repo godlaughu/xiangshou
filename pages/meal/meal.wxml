@@ -1,0 +1,18 @@
+<!--pages/meal/meal.wxml-->
+<view class="m-title">
+    <image src='' class='m--title-img'></image>
+    <view class="m--title-text">早餐</view>
+</view>
+<view class="m-reduce">健康生活从早餐开始</view>
+<view class="m-content">
+    <view class="m-line"></view>
+    <view class="m-box">
+        <view class="m-a" wx:for="{{array}}">
+          <view class='m-img'>
+            <image class='m-img1' src="{{item.img}}"></image>
+          </view>  
+          <view class='m-text1'>{{item.food}}</view>
+          <view class='m-text2'>{{item.heat}}千卡</view>       
+        </view>
+    </view>
+</view>

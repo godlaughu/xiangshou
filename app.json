@@ -7,8 +7,9 @@
     "pages/shoppingmall/index",
     "pages/cart/index",
     "pages/my/index",
+    "pages/planall/planall",
     "pages/plan/plan",
-    "pages/planall/planall"
+    "pages/meal/meal"
   ],
   "window": {
     "backgroundTextStyle": "light",

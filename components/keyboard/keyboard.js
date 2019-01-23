@@ -6,7 +6,8 @@ Component({
     "compBoo": Object
   },
   data: {
-    inputWord: ''
+    inputWord: '',
+    txtBoo: false
   },
   ready() {
     let unit = null;
@@ -24,6 +25,7 @@ Component({
     });
   },
   methods: {
+    //信息输入
     inputWord(e) {
       if (this.data.inputWord.length < 3) {
         this.setData({
@@ -31,13 +33,24 @@ Component({
         });
       }
     },
+    //组件传参
     inputGo() {
-      this.triggerEvent('onSureNum', {
-        sureNum: this.data.inputWord,
-        type: this.properties.compBoo.type
-      });
-      this.inputHidden();
+      if (this.data.inputWord) {
+        this.triggerEvent('onSureNum', {
+          sureNum: this.data.inputWord,
+          type: this.properties.compBoo.type
+        });
+        this.inputHidden();
+      } else {
+        wx.showToast({
+          title: '内容不能为空',
+          image: '../../images/warn.png',
+          duration: 1000,
+          mask: true
+        })
+      }
     },
+    //页面隐藏
     inputHidden() {
       let compBoo = {
         boo: 0,

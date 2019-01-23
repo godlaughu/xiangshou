@@ -8,9 +8,9 @@ Page({
   data: {
     save: data.guide,
     course:data.guide,
-    objective: 10,
+    objective: 0,
     position: 0,
-    difficulty: 10,
+    difficulty: 0,
   },
 
   /**
@@ -42,10 +42,14 @@ Page({
     let a = this.data.save;
     
     for (let i = 0; i < a.length; i++) {
-      if (a[i].objective == this.data.objective || this.data.objective == 10) {
+
+      if (a[i].objective == this.data.objective || this.data.objective == 0) {
+        
         if (a[i].position == this.data.position || this.data.position == 0) {
-          if (a[i].difficulty == this.data.difficulty || this.data.difficulty == 10 ) {
+          
+          if (a[i].difficulty == this.data.difficulty || this.data.difficulty == 0 ) {
             b.push(a[i])
+           
           }
         }
       }

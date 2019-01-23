@@ -134,7 +134,7 @@ swiper-item image {
     height: 139rpx;
 }
 .community-img image {
-    width: 99rpx;
+    width: 85rpx;
     height: 73rpx;
 }
 .plan-img image {

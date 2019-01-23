@@ -17,7 +17,7 @@
   background: rgb(255,84,150);
   color: white;
   border-radius: 10rpx;
-  font-size: 36rpx;
+  font-size: 34rpx;
   line-height: 60rpx;
 }
 .compPicker{

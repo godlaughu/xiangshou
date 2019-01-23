@@ -96,3 +96,6 @@
   bottom: 20rpx;
   font-size: 24rpx;
 }
+.choosing{
+  /* color:  */
+}

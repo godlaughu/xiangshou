@@ -38,9 +38,9 @@ let data = {
         "kind": "适中",
         "duration": "60分钟",
         "type": 1,
-        "objective": 0,
+        "objective": 1,
         "position": 2,
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "curriculum": "30分钟瑜伽体验课",
@@ -48,9 +48,9 @@ let data = {
         "kind": "轻松",
         "duration": "15分钟",
         "type": 0,
-        "objective": 0,
+        "objective": 1,
         "position": 1,
-        "difficulty": 2
+        "difficulty": 3
       },
       {
         "curriculum": "办公室肩颈放松",
@@ -90,7 +90,7 @@ let data = {
         "type": 1,
         "objective": 1,
         "position": 5,
-        "difficulty": 0
+        "difficulty": 3
       }
     ]
 }

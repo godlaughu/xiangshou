@@ -37,24 +37,13 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 0,
 			"list": [
 				{
 					"id": -1,
-					"name": "1111",
-					"pathName": "pages/course/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "plan",
-					"pathName": "pages/plan/plan",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "planall",
-					"pathName": "pages/planall/planall"
+					"name": "meal",
+					"pathName": "pages/meal/meal",
+					"scene": null
 				}
 			]
 		}
